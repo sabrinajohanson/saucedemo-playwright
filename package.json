@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "E2E tests for SauceDemo e-commerce using TypeScript + Playwright + Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrinajohanson/saucedemo-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabrinajohanson/saucedemo-playwright/issues"
+  },
+  "homepage": "https://github.com/sabrinajohanson/saucedemo-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "typescript": "^7.0.2"
+  }
+}
