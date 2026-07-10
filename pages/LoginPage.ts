@@ -2,6 +2,7 @@ import { Page } from '@playwright/test';
 
 export class LoginPage {
   private page: Page;
+  
   private usernameInput = '[data-test="username"]';
   private passwordInput = '[data-test="password"]';
   private loginButton   = '[data-test="login-button"]';
