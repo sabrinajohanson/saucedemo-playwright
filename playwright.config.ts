@@ -15,11 +15,11 @@ export default defineConfig({
       name: 'chromium',
       use: {
         browserName: 'chromium',
-        headless: false,
+        headless: !!process.env.CI,
         baseURL: 'https://www.saucedemo.com',
         trace: 'on-first-retry',
         launchOptions: {
-          slowMo: 500,
+          slowMo: process.env.CI ? 0 : 500,
         },
       },
     },
