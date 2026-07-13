@@ -1,11 +1,12 @@
 # saucedemo-playwright
+
+[![CI](https://github.com/sabrinajohanson/saucedemo-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/sabrinajohanson/saucedemo-playwright/actions/workflows/ci.yml)
+
 E2E tests for the SauceDemo e-commerce application using **TypeScript + Playwright + Page Object Model**.
 
 ---
 
 ## Project structure
-
-```
 saucedemo-playwright/
 ├── pages/
 │   ├── LoginPage.ts        # Login page actions and locators
@@ -22,7 +23,6 @@ saucedemo-playwright/
 ├── tsconfig.json
 ├── package.json
 └── README.md
-```
 
 ---
 
@@ -83,8 +83,7 @@ npx playwright test --debug
 
 ## Known limitations
 
-- Tests run against the live SauceDemo website — test stability depends on site availability
-- No CI/CD pipeline configured yet
+- Tests run against the live SauceDemo website - test stability depends on site availability
 
 ---
 
