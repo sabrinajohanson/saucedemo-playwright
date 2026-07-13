@@ -7,6 +7,8 @@ E2E tests for the SauceDemo e-commerce application using **TypeScript + Playwrig
 ---
 
 ## Project structure
+
+```
 saucedemo-playwright/
 ├── pages/
 │   ├── LoginPage.ts        # Login page actions and locators
@@ -23,6 +25,7 @@ saucedemo-playwright/
 ├── tsconfig.json
 ├── package.json
 └── README.md
+```
 
 ---
 
