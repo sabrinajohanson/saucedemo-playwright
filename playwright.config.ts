@@ -10,6 +10,12 @@ export default defineConfig({
   // Retry on failure in CI
   retries: 0,
 
+  reporter: [
+    ['list'],
+    ['allure-playwright', { outputFolder: 'allure-results' }],
+    ['json', { outputFile: 'playwright-report.json' }],
+  ],
+
   projects: [
     {
       name: 'chromium',
