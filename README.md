@@ -64,6 +64,12 @@ npx playwright test --debug
 
 ---
 
+## Test reports
+
+Every push automatically publishes a full [Allure Report](https://sabrinajohanson.github.io/saucedemo-playwright/) with the detailed results of the test suite (suites, timeline, and per-test steps).
+
+---
+
 ## Test coverage
 
 | Group | Cases |
